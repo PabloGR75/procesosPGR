@@ -1,0 +1,17 @@
+{
+  "name": "procesospgr",
+  "version": "1.0.0",
+  "description": "Trabajo para la asignatura Procesos de Ingeniaría del Software del curso 2024/25",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/jasmine-node servidor",
+    "testW": "node_modules\\.bin\\jasmine-node servidor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jasmine-node": "^3.0.0"
+  }
+}
